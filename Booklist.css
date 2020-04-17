@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.error{
+    color: honeydew;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    background:red;
+}
+.success{
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    background: seagreen;
+
+}
+.remove{
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    background: blue;
+ 
+}

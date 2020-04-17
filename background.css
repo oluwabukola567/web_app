@@ -1,0 +1,27 @@
+#link{
+    float: right;
+    margin: 10px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+h3{
+    color: black;
+}
+h1{
+    text-align: center;
+    color: blanchedalmond;
+}
+body{
+    padding: 20px;
+    border-radius: 10px;
+
+
+
+
+}
+*{
+    border-radius: 10px;
+}
+.load, .outcome{
+    display: none;
+}

@@ -1,0 +1,85 @@
+*{
+    border-radius: 10px;
+}
+body{
+    padding: 20px;
+    border-radius: 10px;
+    transition: 200ms ease;
+}
+
+#link{
+    float: right;
+    margin: 10px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+
+}
+header{
+    background-color: black;
+    color: blanchedalmond;
+   
+}
+.addBtn{
+    padding: 10px;
+    width: 25%;
+    background-color: blue;
+    font-size: medium;
+    color: chartreuse;
+    cursor: pointer;
+    
+    transition: 200ms ease;
+    
+}
+input{
+    padding: 10px;
+    margin: 0;
+    width: 75%;
+}
+h3{
+    color: blanchedalmond;
+}
+.sub{
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+}
+#myul{
+    list-style-type: none;
+    padding:10px;
+    margin: 10px;
+}
+ul li:nth-child(odd){
+    border: 1px solid darkgray;
+    margin-top: -1px;
+    background-color: grey;
+    padding:12px;
+    font-size: 20px;
+    display: block;
+
+}
+ul li:nth-child(even){
+    border: 1px solid darkgray;
+    margin-top: -1px;
+    background-color: cornsilk;
+    padding:12px;
+    font-size: 20px;
+    display: block;
+}
+
+ul li.collection-item::before{
+    position: absolute;
+    border-color: blanchedalmond;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    
+    transform: rotate(45deg);
+    
+
+}
+ul li:hover{
+    background: darkgreen;
+}
+    
+
